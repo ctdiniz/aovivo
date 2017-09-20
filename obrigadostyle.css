@@ -1,0 +1,193 @@
+/* _____ Main Elements _____ */
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background: #FF5677;
+    line-height: 1.5;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* _____ Header Jumbotron _____ */
+
+.header {
+    /*background: #f26b7a;*/
+    background: #FF5677;
+    font-family: "Helvetica", sans-serif;
+    color: #FFC1CC;
+    margin-top: 29px;
+    margin-bottom: 5rem;
+}
+
+.header h2 {
+    color: rgba(255,255,255,1);
+    font-weight: 200;
+}
+
+.content {
+    color: #555;
+    background: white;
+}
+
+.content h1, h2, h3, h4 {
+    color: #333;
+}
+
+.header-lead {
+    padding: 1% 0 3% 0;
+}
+
+/* _____ BTNS _____ */
+
+.btn-outline {
+    color: #FF5677;
+    background: transparent;
+    border-color: #FF5677;
+}
+
+.btn-outline:visited {
+        color: #FF5677;
+}
+
+.btn-outline:hover {
+    color: white;
+    background: #FF5677;
+}
+
+.btn-outline-inv {
+    color: white;
+    background: transparent;
+    border-color: white;
+}
+
+.btn-outline-inv:hover {
+    color: #FF5677;
+    background: white;
+}
+
+.btn-cnt {
+    margin: 1rem 2rem;
+    /*color: #666;
+    border: 1px solid #666;*/
+}
+
+.made {
+    display: none;
+}
+
+.rlink {
+    color: #555;
+    border-bottom: 1px dashed
+}
+
+.rlink:hover {
+    text-decoration: none;
+    color: #FF5677;
+}
+
+/* _____ MEDIA QUERIES _____ */
+
+@media only screen and (max-width:767px) {
+    .mods {
+        margin: 0 15%;
+        padding: 1px;
+        height: auto;
+        width: auto;
+    }
+    
+    .rowmods {
+        height: auto;
+        overflow: hidden;
+        padding: 0;
+    }
+    
+    .pri {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8%;
+    }
+    
+    .ult {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8%;
+    }
+    
+    .sub {
+        font-size: 7rem;
+    }
+    
+    .subtext {
+        font-size: 2rem;
+    }
+    
+    .contacts {
+        margin-top: 2rem;
+    }
+    
+    .contactinfo {
+        padding: 3rem;
+        margin: auto;
+    }
+    
+    .contactinfo p {
+    font-size: 1.8rem;
+    }
+    
+    .contactmail {
+        padding-left: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin: auto;
+        overflow: visible;
+    }
+    
+    .contactmail p {
+        font-size: 1.8rem;
+    }
+    
+    #mail {
+        padding-left: 3rem;
+        margin: auto;
+    }
+    
+    .cfone {
+        border-left: 0;
+        border-right: 0;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .fcont {
+        border-top: 1px solid #eee;
+    }
+    
+    .header-lead {
+        font-size: 2rem
+        
+    }
+    
+    .namail {
+        width: 100%;
+    }
+    
+    .btn-cnt {
+        margin-top: 0;
+        display: block;
+    }
+    
+    .adaptext {
+        text-align: center;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+    
+    .content  {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    .header-lead {
+            line-height: 42px;
+    }
+}
