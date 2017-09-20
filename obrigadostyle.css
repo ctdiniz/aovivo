@@ -20,6 +20,10 @@ body {
     margin-bottom: 5rem;
 }
 
+.obg h1 {
+    color: white;
+}
+
 .header h2 {
     color: rgba(255,255,255,1);
     font-weight: 200;
