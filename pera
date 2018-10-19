@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Aguarde</title>
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="perastyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    
+</head>
+<!-- -- body -- -->
+<body class="home">
+<!-- -- header
+
+<script>
+// Here's the javascript to make things happen.
+// Set the date and time in the CoundDownTimer section and the code will do the rest.
+// It'll even just disappear when the timer expires!
+
+CountDownTimer('10/19/2018 4:30 PM', 'countdown'); // Remember: MM/DD/YYYY and Time is always is 12hr style.
+
+function CountDownTimer(dt, id) {
+  var end = new Date(dt);
+
+  var _second = 1000;
+  var _minute = _second * 60;
+  var _hour = _minute * 60;
+  var _day = _hour * 24;
+  var timer;
+
+  function showRemaining() {
+    var now = new Date();
+    var distance = end - now;
+    if (distance < 0) {
+
+      clearInterval(timer);
+      document.getElementById(id).innerHTML = ' ';
+
+      return;
+    }
+
+    var days = Math.floor(distance / _day);
+    var hours = Math.floor((distance % _day) / _hour);
+    var minutes = Math.floor((distance % _hour) / _minute);
+    var seconds = Math.floor((distance % _minute) / _second);
+
+    var zero = '0';
+    if (hours < 10) {
+      hours = zero + hours;
+    }
+    if (minutes < 10) {
+      minutes = zero + minutes;
+    }
+    if (seconds < 10) {
+      seconds = zero + seconds;
+    }
+
+    document.getElementById(id).innerHTML = hours + ':';
+    document.getElementById(id).innerHTML += minutes + ':';
+    document.getElementById(id).innerHTML += seconds + '';
+  }
+
+  timer = setInterval(showRemaining, 1000);
+}
+
+</script>
+<div id="timer-clock"><div id="countdown"></div></div>
+
+    <!-- scripts -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
