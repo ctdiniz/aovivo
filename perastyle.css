@@ -1,7 +1,7 @@
-body {
+* {
     font-family: "Helvetica", sans-serif;
     color: #F2F3F4
-    background: #2E2E2E;
+    background: #222222;
     line-height: 1.5;
     background-size: cover;
     box-sizing: border-box;
